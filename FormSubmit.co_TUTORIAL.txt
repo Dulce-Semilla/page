@@ -1,0 +1,24 @@
+### Guía para Usar FormSubmit.co con un Formulario en Visual Studio Code
+
+#### Requisitos:
+1. Visual Studio Code instalado.
+2. Extensión 'Live Server (Five Server)' instalada en Visual Studio Code.
+
+#### Pasos:
+1. **Visualiza el Video Tutorial**: Para empezar, mira el siguiente video que explica paso a paso cómo configurar FormSubmit.co con un formulario: [Ver Video](https://www.youtube.com/watch?v=mmo9PR_9m84).
+
+2. **Configuración del Entorno**:
+   - Abre Visual Studio Code.
+   - Instala la extensión 'Live Server (Five Server)' desde el marketplace de Visual Studio Code.
+   - Para instalarla, haz clic en el icono de extensiones en el panel lateral izquierdo, busca 'Live Server (Five Server)' y haz clic en 'Instalar'.
+
+3. **Crea tu Página Web**:
+   - Crea un nuevo archivo HTML en Visual Studio Code y codifica tu formulario.
+
+4. **Ejecuta tu Página Web**:
+   - Guarda tu archivo HTML.
+   - Haz clic derecho en el archivo y selecciona "Open with Live Server" para ver tu formulario en ejecución en el navegador.
+   - Asegúrate de que Live Server esté corriendo correctamente y que puedas ver tu formulario funcionando.
+
+#### Nota:
+Sigue cuidadosamente todas las indicaciones del video para garantizar que tu formulario funcione correctamente con FormSubmit.co., recordar que aquí estamos haciendo uso de un servicio gratuito para manejar los mensajes o los datos que los usuarios nos proporcionen en el formulario

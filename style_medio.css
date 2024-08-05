@@ -1,0 +1,96 @@
+/* Consultas de medios para dispositivos móviles */
+@media (max-width: 768px) {
+    .nav-list {
+        text-align: center;
+        margin: 0;
+    }
+
+    .nav-item {
+        margin: 0 10px;
+    }
+
+    .about-content {
+        margin-right: 0; 
+    }
+
+    .menu-item {
+        width: calc(50% - 20px);
+    }
+
+    .text_about {
+        font-size: 0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    textarea {
+        font-size: 1rem; /* Mantén el tamaño de fuente consistente */
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-logo {
+        font-size: 1.5rem;
+        margin-left: 0.7rem;
+    }
+
+    .home-title {
+        font-size: 2rem;
+    }
+
+    .home-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .menu-item {
+        width: 100%;
+        margin: 0;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content {
+        margin-bottom: 20px;
+    }
+
+    .about-img img {
+        max-width: 100%;
+    }
+
+    .text_about {
+        font-size: 0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    .text{
+        font-size: 0.6rem; /* Mantén el tamaño de fuente consistente */
+    }
+
+    .textt{
+        font-size: 0.5rem;
+    }
+
+    .mensaje_movil{
+        font-size: 1rem;
+        color: white;
+    }
+
+    .text{
+        font-size: 13.5px;
+    }
+
+    .section-title{
+        margin-top: 20px;
+    }
+
+    .menu {
+        padding: 15px 0 0 0;
+
+    }
+}
+

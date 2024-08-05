@@ -1,0 +1,333 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header Styles */
+.header {
+    background: black;
+    padding: 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffb6c1;
+    text-decoration: none;
+    font-family: "Libre Baskerville", serif;
+}
+
+.nav-logo-img {
+    height: 30px; /* Ajusta el tamaño según sea necesario */
+    width: auto;
+    margin-left: 1px; /* Espacio entre el título y el logo */
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Home Section */
+.home {
+    background: url('portada.png') no-repeat center center/cover;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.home-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.home-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.main-btn {
+    background: #FFCFDB;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.service {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.service-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+/* Sección sobre nosotros */
+.about {
+    display: flex; /* Usa flexbox para la disposición de los elementos dentro de la sección */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si es necesario */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    padding: 0; /* Relleno superior e inferior de la sección */
+}
+
+.about-content, .about-img {
+    flex: 1; /* Los elementos ocupan una fracción igual del espacio disponible */
+    margin-bottom: 20px; /* Espacio inferior de los elementos */
+}
+
+.about-content {
+    margin-right: 20px; /* Espacio a la derecha del contenido sobre nosotros */
+}
+
+.about-description {
+    text-align: center; /* Alineación del texto al centro */
+}
+
+.about-img img {
+    width: 100%; /* Ancho de la imagen al 100% del contenedor */
+    max-width: 500px; /* Ancho máximo de la imagen */
+    border-radius: 0; /* Bordes no redondeados */
+}
+
+.about-img {
+    display: flex; /* Usa flexbox para la disposición de los elementos dentro de la imagen */
+    align-items: stretch; /* Asegura que los hijos del contenedor tengan la misma altura */
+    border: 0 solid #ccc; /* Añade un borde para ver mejor los límites del contenedor */
+}
+
+.text_about {
+    width: 500px; /* Ancho fijo para el texto */
+    text-align:center; /* Justificación del texto */
+    color: #000; /* Color del texto */
+    font-size: 2rem; /* Tamaño de la fuente */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total del elemento */
+    padding-top: 50px; /* Relleno superior del texto */
+    padding-bottom: 50px; /* Sin relleno inferior */
+    padding-left: 50px; /* Relleno izquierdo */
+    margin-bottom: 0;
+    height: auto; /* Altura automática */
+}
+
+/* Menu Section */
+.menu {
+    background: #f4f4f4;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+.menu-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: calc(25% - 20px);
+    margin: 10px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 700;
+}
+
+.menu-price {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Footer Section */
+.footer {
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-social {
+    margin-top: 10px;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-icon:hover {
+    color: #FFCFDB;
+}
+
+/* Floating Card */
+.floating-card {
+    position: fixed;
+    bottom: 50%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFCFDB;
+    padding: 5px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+    transform: translateY(50%);
+    transition: transform 0.3s ease;
+}
+
+.floating-card:hover {
+    transform: translateY(50%) scale(1.1);
+}
+
+.floating-card p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Contact Form */
+
+.contact{
+    background: white;
+}
+
+.form_title {
+    font-family: Arial;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+form {
+    background: black;
+    padding: 3%;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: Arial;
+}
+
+fieldset{
+    border-radius: 0.3rem;
+    margin-bottom: 0.7rem;
+}
+
+.form_input {
+    padding: 1% 2%;
+    color: white;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: solid 1px white;
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    border-radius: 0.2rem;
+}
+
+legend{
+    text-align: left;
+    padding: 0 5px;
+}
+
+.input_x{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+input::placeholder{
+    color: #f4f4f480;
+}
+
+
+textarea {
+    min-width: 100%;
+    resize: none;
+    min-height: 100px;
+}
+
+textarea::placeholder{
+    color: #f4f4f480;
+    resize: none;
+}
+
+.subtitulos{
+    font-weight: 900;
+}
+
+.submit-button:hover {
+    background-color: #FFCFDB; /* Color de fondo al pasar el cursor */
+    color: rgba(0, 0, 0, 0.8);;
+}
